@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Questrial";
+  src: url("../public/assets/fonts/Questrial-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("../public/assets/fonts/Montserrat-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-ThinItalic";
+  src: url("../public/assets/fonts/Montserrat-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../public/assets/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-LightItalic";
+  src: url("../public/assets/fonts/Montserrat-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../public/assets/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBoldItalic";
+  src: url("../public/assets/fonts/Montserrat-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../public/assets/fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-BlackItalic";
+  src: url("../public/assets/fonts/Montserrat-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../public/assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-BoldItalic";
+  src: url("../public/assets/fonts/Montserrat-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("../public/assets/fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraBoldItalic";
+  src: url("../public/assets/fonts/Montserrat-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../public/assets/fonts/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("../public/assets/fonts/Helvetica-Bold.ttf");
+}
+
+body {
+  width: 100%;
+}
+p {
+  font-family: "Questrial";
+}
+
+:root {
+  --fs-nav-txt: clamp(1rem, 1vw, 5rem);
+  --fs-12: clamp(0.75rem, 0.4vw + 0.4rem, 2.3rem);
+  --fs-14: clamp(0.875rem, 0.5vw + 0.4rem, 2.7rem);
+  --fs-16: clamp(1rem, 0.54vw + 0.53rem, 3.1rem);
+  --fs-18: clamp(1.125rem, 0.6vw + 0.6rem, 3.5rem);
+  --fs-20: clamp(1.25rem, 0.7vw + 0.65rem, 3.9rem);
+  --fs-22: clamp(1.375rem, 0.75vw + 0.72rem, 4.3rem);
+  --fs-24: clamp(1.5rem, 0.8vw + 0.8rem, 4.7rem);
+  --fs-26: clamp(1.625rem, 0.87vw + 0.87rem, 5.1rem);
+  --fs-28: clamp(1.75rem, 0.93vw + 0.95rem, 5.5rem);
+  --fs-32: clamp(2rem, 1vw + 1rem, 6.3rem);
+  --fs-42: clamp(2.625rem, 1vw + 1.4rem, 8.3rem);
+  --fs-48: clamp(3rem, 1.2vw + 1.6rem, 9.4rem);
+  --fs-52: clamp(3.25rem, 1.2vw + 1.7rem, 10.2rem);
+  --fs-60: clamp(3.75rem, 1.4vw + 2rem, 11.8rem);
+}
+
+/* ::-webkit-scrollbar {
+  width: 0;
+} */
+html {
+  scroll-behavior: smooth;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
