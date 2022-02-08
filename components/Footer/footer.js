@@ -31,11 +31,8 @@ function Footer() {
             >
               <RiFacebookBoxLine style={{ "font-size": `1.75rem` }} />
             </StyledLink>
-            <StyledLink
-              href="https://www.linkedin.com/in/hosea-yoarana/"
-              target="_blank"
-            >
-              <RiLinkedinBoxLine style={{ "font-size": `1.75rem` }} />
+            <StyledLink href="https://twitter.com/HoseaYoarana" target="_blank">
+              <RiTwitterLine style={{ "font-size": `1.75rem` }} />
             </StyledLink>
             <StyledLink
               href="https://www.instagram.com/hosea_yoarana/?hl=en"
@@ -43,8 +40,11 @@ function Footer() {
             >
               <RiInstagramLine style={{ "font-size": `1.75rem` }} />
             </StyledLink>
-            <StyledLink href="https://twitter.com/HoseaYoarana" target="_blank">
-              <RiTwitterLine style={{ "font-size": `1.75rem` }} />
+            <StyledLink
+              href="https://www.linkedin.com/in/hosea-yoarana/"
+              target="_blank"
+            >
+              <RiLinkedinBoxLine style={{ "font-size": `1.75rem` }} />
             </StyledLink>
             <StyledLink href="https://github.com/hosea100" target="_blank">
               <RiGithubFill style={{ "font-size": `1.75rem` }} />
@@ -77,7 +77,7 @@ const Wrapper = styled.div`
   position: relative;
   display: flex;
   flex-direction: row;
-  margin-top: 20%;
+  margin-top: 10%;
   padding: 2% 10%;
   background-color: #fff;
 

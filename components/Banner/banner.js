@@ -43,7 +43,7 @@ const Wrapper = styled.div`
   background-repeat: no-repeat;
 
   overflow: hidden;
-  margin: 0 10%;
+  margin: 0 10% 5% 10%;
 
   font-style: normal;
   font-weight: normal;
